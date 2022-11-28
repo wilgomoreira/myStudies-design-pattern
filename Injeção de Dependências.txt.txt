@@ -1,0 +1,6 @@
+È não usar uma dependência externa dentro do código.
+
+O correto é passar essa dependência, essa injeção, via construtor, via set... ou através de argumento da função
+
+Tudo isso, para que o código fique menos acoplado e possa ser usado onde desejar.
+
